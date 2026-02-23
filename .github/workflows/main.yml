@@ -2,7 +2,7 @@ name: CD - Build Docker, Push to ACR, Deploy to Azure Container Apps
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main"] 
     tags:
       - "v*" 
 
